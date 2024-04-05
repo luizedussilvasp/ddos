@@ -1,0 +1,7 @@
+sudo apt install scapy
+comando para executar o ataque sudo python3 IcmpiFlood.py target 3000 = 18000 e 4000 = 24000 (quantidade do pacote, para iniciar crtl c)
+
+
+sudo python3 icmp-flood.py 10.0.6.31 3000
+
+
