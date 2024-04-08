@@ -1,3 +1,5 @@
+sudo hping3 -c 100 -S -w 64 -p 80 --flood 192.168.0.1
+
 IP Spoofing with hping3
 In this activity, we will send ping requests to a target system, but then we will trick the target
 system to reply to another system by spoofing our IP address.
